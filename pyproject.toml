@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tattva"
+version = "0.1.0"
+description = "Solar cycle model: geometric-sunrise division, the 121/125 collar grid, four-point cosine energy, TCM organ and Ayurvedic dosha clocks."
+requires-python = ">=3.11"
+license = "GPL-3.0-or-later"
+authors = [{name = "Perieteanu Costin"}]
+dependencies = ["astral>=3.2"]
+
+[project.optional-dependencies]
+organs = ["PyYAML"]
+doshas = ["PyYAML"]
+content = ["PyYAML"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tattva = ["data/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

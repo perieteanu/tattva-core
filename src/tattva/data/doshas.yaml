@@ -1,0 +1,65 @@
+# Ayurvedic dosha clock content. Per-DOSHA (3 entries), NOT per dosha-phase:
+# the tradition names no sub-phases, so nine descriptions would be almost
+# entirely invented. The phase modulates the LABEL ("Kapha - Rising"), never
+# the text.
+#
+# AUTHORSHIP, NOT DOCTRINE. Classical Ayurveda gives doshas as fixed 4-hour
+# CLOCK blocks (Kapha ~06-10, Pitta ~10-14, Vata ~14-18). Anchoring them to the
+# sun is a deliberate departure -- see DECISIONS `dosha-clock`.
+#
+# `signs` is LOAD-BEARING and follows DECISIONS `cycle-apps-are-instruments`:
+# these apps exist to find out WHICH of these systems actually track anything,
+# so the text must be concrete enough to be WRONG. State, not agreement. Two
+# channels, body and mind. A direction, not just a level. At least one thing
+# that can be flatly absent. No prescriptions -- those live in favourable/avoid.
+# Nothing that would read as true during any of the three doshas.
+
+doshas: [Kapha, Pitta, Vata]
+phases: [Rising, Peak, Declining]
+
+entries:
+  Kapha:
+    qualities: >-
+      Heavy, slow, cool, oily, smooth, dense, stable. Earth and water. The
+      principle of structure and cohesion -- what holds form together.
+    signs: >-
+      Limbs feel heavy and slightly cool; movement wants to be slower than you
+      intend. Mind steady but slow to start -- reluctance to begin rather than
+      inability. Appetite low, and often thick saliva or some congestion on
+      waking.
+    favourable: >-
+      Vigorous movement, cold showers, work that needs persistence rather than
+      speed. A good window for anything you have been putting off physically.
+    avoid: >-
+      Heavy or oily food, daytime sleep, staying still for long stretches. These
+      compound the heaviness rather than clearing it.
+  Pitta:
+    qualities: >-
+      Hot, sharp, light, penetrating, slightly oily, spreading. Fire and water.
+      The principle of transformation -- what converts one thing into another.
+    signs: >-
+      Body runs warm, palms and face warmest; you notice heat before others do.
+      Appetite sharp and rising -- genuine hunger, not habit, and irritability
+      if you skip the meal. Mind cuts quickly, focused and impatient, with a
+      low tolerance for vagueness.
+    favourable: >-
+      Demanding mental work, decisions, confrontation, the main meal of the day.
+      Anything needing precision or sustained concentration.
+    avoid: >-
+      Direct midday heat, spicy or fermented food, arguments you cannot afford
+      to win. Overheating amplifies the sharpness into anger.
+  Vata:
+    qualities: >-
+      Dry, light, cold, rough, subtle, mobile, erratic. Air and space. The
+      principle of movement -- what carries everything else around.
+    signs: >-
+      Hands and feet cooler than the rest of you, often noticeably so. Mind
+      moves fast and jumps between subjects; ideas arrive easily but attention
+      will not settle. Digestion light and variable, sometimes gas or a hollow
+      unsettled feeling rather than clear hunger.
+    favourable: >-
+      Creative and associative work, planning, conversation, meditation. Warmth,
+      oil, and a regular rhythm steady it.
+    avoid: >-
+      Cold dry food, over-stimulation, travel, and important decisions -- the
+      same mobility that helps ideas makes judgement inconsistent.

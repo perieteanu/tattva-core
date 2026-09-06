@@ -1,0 +1,457 @@
+# TCM organ clock content, extracted verbatim from calc.py on 2026-09-04.
+#
+# NOT covered by any 2026-07-22 decision. The clock divides the DISC-UP day
+# (sunrise->sunset) and the disc-down night into 6 organs x 5 qi phases -- it does
+# NOT use the collared 125-mini tattva arcs. Whether it should is recorded as the
+# open decision `organ-clock-anchor` in docs-yaml/DECISIONS.yaml.
+#
+# Phase order is the qi_phases list; each organ has exactly 5 entries per section.
+
+qi_phases: [Entering, Rising, Peak, Declining, Exiting]
+organs_day: ["Lung", "Large Intestine", "Stomach", "Spleen", "Heart", "Small Intestine"]
+organs_night: ["Bladder", "Kidney", "Pericardium", "Triple Burner", "Gallbladder", "Liver"]
+
+organs:
+  "Lung":
+    - phase: Entering
+      activity: "Prepare: open windows, fresh air. Gentle wake-up"
+      improvement: "Emotion: grief/sadness. Sense: nose. Tissue: skin"
+      pulse_position: "RIGHT wrist, Cun (closest to thumb)"
+      pulse_description: "Qi arriving — pulse may be faint, growing. Healthy: gentle, slightly floating, like a feather landing"
+      sound_practice: "SSSS — sit upright, hands on thighs, palms down"
+      inner_smile: "Bring attention to your lungs. Feel the space in your chest expanding"
+    - phase: Rising
+      activity: "Deep breathing exercises, qi gong, morning stretches"
+      improvement: "Pungent foods support Lung: ginger tea, scallions, radish"
+      pulse_position: "Use index finger, pad flat on skin"
+      pulse_description: "Qi building — pulse strengthening. Weak/thin = Qi deficiency (shortness of breath, soft voice)"
+      sound_practice: "Begin exhaling SSSS softly (like a snake). Arms rise slowly, palms up"
+      inner_smile: "Smile gently to your lungs. Send warmth and light — imagine white/silver light filling them"
+    - phase: Peak
+      activity: "Best time for meditation and pranayama — Lung Qi at peak"
+      improvement: "Avoid: smoking, cold drinks, dairy. Protect from cold drafts"
+      pulse_position: "Press DEEP to feel the Lung (Yin organ)"
+      pulse_description: "Qi at peak — strongest now. Tight = cold in lungs (chills, white phlegm). Rapid = heat (yellow phlegm, thirst)"
+      sound_practice: "Full SSSS exhale — arms overhead, palms face ceiling, stretch open the chest"
+      inner_smile: "Feel courage and righteousness replacing grief or sadness. Lungs glow white"
+    - phase: Declining
+      activity: "Gentle transition — slow walking, mindful breathing"
+      improvement: "If grieving: allow tears now, Lung processes letting go"
+      pulse_position: "Hold 15+ breaths, feel rhythm changes"
+      pulse_description: "Qi declining — pulse softening. If still very strong: Qi not flowing to next organ (stagnation)"
+      sound_practice: "Soften the SSSS to a whisper. Lower arms slowly. Feel lungs releasing"
+      inner_smile: "Let the warm feeling settle deep into lung tissue. Grief dissolves into the sound"
+    - phase: Exiting
+      activity: "Prepare for elimination — drink warm water"
+      improvement: "Skin reflects Lung health: dry skin = Lung Qi weakness"
+      pulse_position: "Compare with LEFT Cun (Heart) — both should be balanced"
+      pulse_description: "Qi exiting to Large Intestine. Lung sets the body's rhythm. If absent: severe Qi depletion"
+      sound_practice: "Silent SSSS — mouth the shape without sound. Hands return to thighs"
+      inner_smile: "Thank your lungs. Feel them clean, bright, ready to hand off to Large Intestine"
+
+  "Large Intestine":
+    - phase: Entering
+      activity: "Ideal time for bowel movement — don't suppress the urge"
+      improvement: "Emotion: stuck grief. Letting go physically = letting go emotionally"
+      pulse_position: "RIGHT wrist, Cun (closest to thumb)"
+      pulse_description: "Qi arriving from Lung — surface pulse awakening. Healthy: moderate strength, smooth rolling"
+      sound_practice: "SSSS — same sound as Lung (paired organ). Sit, hands on lower belly"
+      inner_smile: "Bring attention to your abdomen, lower right side. Feel the intestinal space"
+    - phase: Rising
+      activity: "Drink warm water or lemon water to aid elimination"
+      improvement: "Dry brushing the skin supports LI meridian (skin/arm path)"
+      pulse_position: "Use index finger, LIGHT touch (Yang organ = surface)"
+      pulse_description: "Qi building — pulse gaining definition. Slippery = dampness/food stagnation (bloating, loose stool)"
+      sound_practice: "Begin soft SSSS exhale. Hands massage belly clockwise gently"
+      inner_smile: "Smile to your intestines. Send warmth downward — imagine releasing and letting go"
+    - phase: Peak
+      activity: "Body is at peak cleansing — most natural BM timing"
+      improvement: "Avoid: cold/raw food now. Constipation = stagnation pattern"
+      pulse_position: "Stay at skin level, don't press deep"
+      pulse_description: "Qi at peak — strongest now. Choppy/rough = dryness (constipation, cracked lips). Wiry = cramping"
+      sound_practice: "Full SSSS — feel the vibration in the lower abdomen, not the chest"
+      inner_smile: "Feel clarity replacing holding. The body releases what is no longer needed"
+    - phase: Declining
+      activity: "Light breakfast after elimination — warm, simple food"
+      improvement: "If bloated/gassy: LI damp-heat or food stagnation"
+      pulse_position: "Feel for regularity — should be even"
+      pulse_description: "Qi declining — pulse easing. Good time to notice if flow feels 'stuck' or rough"
+      sound_practice: "Soften SSSS. Hands still on belly, feel warmth spreading"
+      inner_smile: "Let the releasing feeling complete. Don't force — allow natural downward movement"
+    - phase: Exiting
+      activity: "Prepare for Stomach — the body is ready to receive food"
+      improvement: "Regularity here = good health indicator. Track your patterns"
+      pulse_position: "Compare with deep press (Lung below) — surface should feel livelier"
+      pulse_description: "Qi exiting to Stomach. Weak = poor downward movement. Elimination issues show here"
+      sound_practice: "Silent SSSS. Hands rest. Feel the belly soft and open"
+      inner_smile: "Thank your Large Intestine. Feel clean, empty, ready for Stomach to receive"
+
+  "Stomach":
+    - phase: Entering
+      activity: "Eat your LARGEST meal now — digestion is strongest"
+      improvement: "Emotion: worry about nourishment. Taste: naturally sweet foods"
+      pulse_position: "RIGHT wrist, Guan (middle position)"
+      pulse_description: "Qi arriving — the 'root' pulse awakening. Healthy: strong, steady. Should ALWAYS be felt"
+      sound_practice: "WHOO — (from the throat, like blowing gently). Sit, hands on upper belly"
+      inner_smile: "Bring attention to your stomach, center below ribs. Feel the space there"
+    - phase: Rising
+      activity: "Warm, cooked food preferred — soup, porridge, grains"
+      improvement: "Avoid: ice water, raw salads, excessive cold fruit"
+      pulse_position: "Use middle finger, pad centered on artery"
+      pulse_description: "Qi building — pulse growing firm. Slippery = food retention (fullness, acid reflux)"
+      sound_practice: "Begin soft WHOO exhale. Feel vibration in the upper belly area"
+      inner_smile: "Smile to your stomach. Send golden-yellow warmth. Imagine a warm hearth"
+    - phase: Peak
+      activity: "Peak digestive fire — the body extracts maximum nutrition now"
+      improvement: "The saying 'eat breakfast like a king' aligns with Stomach peak"
+      pulse_position: "LIGHT touch for Stomach (Yang organ = surface)"
+      pulse_description: "Qi at peak — most vital pulse. Weak = Stomach Qi deficiency (no appetite, fatigue after meals)"
+      sound_practice: "Full WHOO — mouth rounds, sound resonates in the center. Hands press gently"
+      inner_smile: "Feel trust and groundedness replacing worry. Stomach glows warm yellow"
+    - phase: Declining
+      activity: "Stop eating, let digestion work — don't add more food"
+      improvement: "Acid reflux or nausea now = Stomach Qi rebellion (going up instead of down)"
+      pulse_position: "This is the most important vitality pulse — check it first"
+      pulse_description: "Qi declining — still strong. Wiry = epigastric pain, stress affecting digestion"
+      sound_practice: "Soften WHOO to a hum. Feel the stomach settling, content"
+      inner_smile: "Let nourishing warmth spread from stomach center outward. Worry dissolves"
+    - phase: Exiting
+      activity: "Prepare for Spleen — food is transforming into Qi"
+      improvement: "Stomach health shows in lips: cracked/pale lips = Stomach weakness"
+      pulse_position: "Compare with deep press (Spleen below) — together they show digestion"
+      pulse_description: "Qi exiting to Spleen. If Stomach pulse disappears: serious sign — seek medical attention"
+      sound_practice: "Silent WHOO. Hands rest on upper belly. Feel centered and stable"
+      inner_smile: "Thank your stomach. Feel grounded, ready to transform food into Qi for Spleen"
+
+  "Spleen":
+    - phase: Entering
+      activity: "Best time for thinking, studying, concentration"
+      improvement: "Emotion: overthinking/worry. Sense: mouth/taste. Tissue: muscles"
+      pulse_position: "RIGHT wrist, Guan (middle position)"
+      pulse_description: "Qi arriving from Stomach — deep pulse emerging. Healthy: soft, moderate, like gentle rolling"
+      sound_practice: "WHOO — same sound as Stomach (paired organ). Sit, hands on left side below ribs"
+      inner_smile: "Bring attention to your spleen, left side. Feel the deep organ space"
+    - phase: Rising
+      activity: "Intellectual work peaks now — Spleen governs thought"
+      improvement: "Light movement aids digestion: walk after breakfast, gentle yoga"
+      pulse_position: "Use middle finger, press DEEP (Yin organ)"
+      pulse_description: "Qi building — pulse gaining substance. Soggy/soft = dampness (heavy limbs, foggy thinking)"
+      sound_practice: "Begin soft WHOO exhale. Focus the vibration deeper than Stomach, to the left"
+      inner_smile: "Smile to your spleen. Send deep golden warmth. Imagine rich earth nourishing roots"
+    - phase: Peak
+      activity: "Peak mental clarity — best for learning, problem solving"
+      improvement: "Avoid: worry spirals, sitting too long. Sweet cravings = Spleen calling"
+      pulse_position: "Press to muscle level, feel for substance"
+      pulse_description: "Qi at peak — fullest now. Weak/empty = Qi sinking (prolapse, bruising easily)"
+      sound_practice: "Full WHOO — feel it vibrate the left side. Hands hold the left ribs gently"
+      inner_smile: "Feel fairness and trust replacing overthinking. Spleen glows deep golden"
+    - phase: Declining
+      activity: "Reduce mental intensity — Spleen tires from overthinking"
+      improvement: "Dampness signs: foggy head, heavy limbs, bloating = weak Spleen"
+      pulse_position: "Hold steady, feel if pulse 'collapses' under pressure"
+      pulse_description: "Qi declining — naturally softening. Thin = blood deficiency (pale face, dizziness)"
+      sound_practice: "Soften WHOO. Feel the mind becoming quiet and clear"
+      inner_smile: "Let the clarity settle. Overthinking dissolves — the mind rests in the body"
+    - phase: Exiting
+      activity: "Prepare for Heart — mental energy transitions to emotional"
+      improvement: "Spleen builds blood: bruising, fatigue, scanty periods = Spleen Qi deficiency"
+      pulse_position: "Compare with surface Stomach above — deep should be softer"
+      pulse_description: "Qi exiting to Heart. Spleen transforms food into Qi — weak here = root of chronic issues"
+      sound_practice: "Silent WHOO. Hands rest. Mind is still, body feels substantial"
+      inner_smile: "Thank your spleen. Feel nourished and mentally clear. Prepare for Heart"
+
+  "Heart":
+    - phase: Entering
+      activity: "Rest if possible — Heart is at peak, don't overstress it"
+      improvement: "Emotion: joy (excess = mania/anxiety). Sense: tongue. Tissue: blood vessels"
+      pulse_position: "LEFT wrist, Cun (closest to thumb)"
+      pulse_description: "Qi arriving from Spleen — pulse awakening. Healthy: smooth, regular, like a calm wave"
+      sound_practice: "HAW — (open mouth, like fogging a mirror). Sit, hands at heart center"
+      inner_smile: "Bring attention to your heart center. Feel the rhythm, the warmth there"
+    - phase: Rising
+      activity: "Siesta cultures align with this: a short nap is ideal"
+      improvement: "Joyful social connection nourishes Heart — light conversation"
+      pulse_position: "Use index finger, press DEEP (Yin organ)"
+      pulse_description: "Qi building — pulse gaining warmth. Rapid = Heart fire (anxiety, insomnia, red face)"
+      sound_practice: "Begin soft HAW exhale. Hands open outward from heart, palms facing forward"
+      inner_smile: "Smile to your heart. Send rose-red light. Feel genuine warmth, not excitement"
+    - phase: Peak
+      activity: "Heart peak — avoid intense exercise, arguments, shocks"
+      improvement: "Bitter taste supports Heart: green tea, dark chocolate (small amount)"
+      pulse_position: "Feel for regularity — skipped beats matter here"
+      pulse_description: "Qi at peak — strongest now. Irregular/skipping = stagnation (palpitations, chest tightness)"
+      sound_practice: "Full HAW — mouth wide open, tongue flat. Sound clears heat from the chest"
+      inner_smile: "Feel calm joy and love replacing anxiety or restlessness. Heart glows soft red"
+    - phase: Declining
+      activity: "Calm activities — gentle walk, reading, pleasant company"
+      improvement: "Insomnia often roots here: Heart fire or blood deficiency"
+      pulse_position: "Count beats per breath (normal: 4-5 per breath cycle)"
+      pulse_description: "Qi declining — pulse calming. Thin/thready = blood deficiency (poor memory, disturbed sleep)"
+      sound_practice: "Soften HAW to a gentle breath. Hands return to heart. Feel peace"
+      inner_smile: "Let deep calm settle into the heart. Anxiety and excess fire dissolve with the sound"
+    - phase: Exiting
+      activity: "Prepare for Small Intestine — from feeling to discernment"
+      improvement: "Heart shows in complexion: dull/pale face = Heart blood issue"
+      pulse_position: "Compare with RIGHT Cun (Lung) — Heart should feel slightly stronger"
+      pulse_description: "Qi exiting to Small Intestine. Choppy = blood stasis (serious). Heart houses the mind"
+      sound_practice: "Silent HAW. Hands rest at heart. Feel love without agitation"
+      inner_smile: "Thank your heart. Feel peaceful, joyful, still. Prepare for Small Intestine"
+
+  "Small Intestine":
+    - phase: Entering
+      activity: "Good time for sorting, organizing, decision-making"
+      improvement: "SI separates pure from impure — mentally and physically"
+      pulse_position: "LEFT wrist, Cun (closest to thumb)"
+      pulse_description: "Qi arriving from Heart — surface pulse activating. Healthy: clear, moderate, like a clean stream"
+      sound_practice: "HAW — same sound as Heart (paired organ). Sit, hands on lower belly center"
+      inner_smile: "Bring attention to the navel area. Feel the sorting, separating energy"
+    - phase: Rising
+      activity: "Drink water to support fluid separation and absorption"
+      improvement: "Good for administrative tasks, email processing, tidying"
+      pulse_position: "Use index finger, LIGHT touch (Yang organ = surface)"
+      pulse_description: "Qi building — pulse clarifying. Rapid = heat (dark urine, burning, mouth ulcers)"
+      sound_practice: "Begin soft HAW exhale. Focus vibration below navel, not in chest"
+      inner_smile: "Smile to your small intestine. Send warm red-orange light. Clarity entering"
+    - phase: Peak
+      activity: "Peak discernment — best for evaluating, choosing, filtering"
+      improvement: "Avoid: heavy meals now. Light snack at most if hungry"
+      pulse_position: "Stay at skin level, feel for smoothness"
+      pulse_description: "Qi at peak — clearest now. Wiry = abdominal pain, cramping around the navel"
+      sound_practice: "Full HAW — feel it resonate in the lower abdomen. Hands warm the belly"
+      inner_smile: "Feel clear discernment replacing confusion. The pure is separated from the impure"
+    - phase: Declining
+      activity: "Wrap up analytical work — clarity begins to shift"
+      improvement: "Urinary issues during this time = SI heat transferring to Bladder"
+      pulse_position: "Compare surface vs deep — surface = SI, deep = Heart"
+      pulse_description: "Qi declining — pulse gentling. Slippery = dampness (gurgling intestines, unclear urine)"
+      sound_practice: "Soften HAW. Feel the belly warm and organized, clear"
+      inner_smile: "Let discriminating wisdom settle. Your body knows what to keep and what to release"
+    - phase: Exiting
+      activity: "Prepare for Bladder — from sorting to storage/release"
+      improvement: "Mouth ulcers, restless mind = SI heat (often from Heart fire)"
+      pulse_position: "Mirrors Heart's condition at the surface level"
+      pulse_description: "Qi exiting to Bladder. SI separates pure from impure — problems show as urinary issues"
+      sound_practice: "Silent HAW. Hands rest. Feel internal clarity and organization"
+      inner_smile: "Thank your small intestine. Feel sorted, clear. Prepare for Bladder"
+
+  "Bladder":
+    - phase: Entering
+      activity: "Good for study and memory retention — Bladder meridian runs along spine"
+      improvement: "Emotion: fear-related holding. Tissue: bones (via Kidney partner)"
+      pulse_position: "LEFT wrist, Chi (closest to elbow)"
+      pulse_description: "Qi arriving from Small Intestine — proximal pulse activating. Healthy: moderate, slightly firm"
+      sound_practice: "CHOO — (like blowing out a candle). Sit, hands on lower back/kidneys"
+      inner_smile: "Bring attention to your lower back, the bladder area in the pelvis"
+    - phase: Rising
+      activity: "Gentle back stretches, spinal twists support Bladder meridian"
+      improvement: "Hydrate well — Bladder manages water metabolism"
+      pulse_position: "Use ring finger, LIGHT touch (Yang organ = surface)"
+      pulse_description: "Qi building — pulse firming. Tight = cold in Bladder (frequent clear urination, cold low back)"
+      sound_practice: "Begin soft CHOO exhale. Lean slightly forward, hands press lower back"
+      inner_smile: "Smile to your bladder. Send blue-black warmth to the lower back and pelvis"
+    - phase: Peak
+      activity: "Memory and learning peak — back/spine most responsive to care"
+      improvement: "Avoid: holding urine, sitting too long, cold on lower back"
+      pulse_position: "Stay at skin level, most proximal position"
+      pulse_description: "Qi at peak — firmest now. Rapid = damp-heat (burning urination, dark/cloudy urine)"
+      sound_practice: "Full CHOO — round the lips, feel vibration in lower back and pelvic floor"
+      inner_smile: "Feel courage and flow replacing fear or holding. Bladder area glows deep blue"
+    - phase: Declining
+      activity: "Wind down study — salty snack in moderation supports water element"
+      improvement: "Low back pain, sciatica often relates to Bladder Qi stagnation"
+      pulse_position: "May be harder to feel — slightly more pressure than other Yang pulses"
+      pulse_description: "Qi declining — pulse easing. Weak = Qi deficiency (dribbling, incomplete urination)"
+      sound_practice: "Soften CHOO. Sit up slowly. Feel the lower back warm and released"
+      inner_smile: "Let the releasing warmth spread through the pelvis. Holding and tension dissolve"
+    - phase: Exiting
+      activity: "Prepare for Kidney — release tension from the day"
+      improvement: "Frequent/urgent urination = Bladder Qi deficiency. Warm the lower body"
+      pulse_position: "Compare with deep press (Kidney below) — Bladder is Kidney's Yang partner"
+      pulse_description: "Qi exiting to Kidney. Bladder controls water's exit — reflects lower body and back health"
+      sound_practice: "Silent CHOO. Hands rest on knees. Lower back feels warm and open"
+      inner_smile: "Thank your bladder. Feel released, flowing. Prepare for Kidney"
+
+  "Kidney":
+    - phase: Entering
+      activity: "Sexual energy peaks — Kidney stores Jing (essence)"
+      improvement: "Emotion: fear. Sense: ears/hearing. Tissue: bones, teeth, hair"
+      pulse_position: "LEFT wrist, Chi (closest to elbow)"
+      pulse_description: "Qi arriving from Bladder — deepest pulse emerging. Healthy: deep but FIRM at bone level"
+      sound_practice: "CHOO — same sound as Bladder (paired organ). Sit, hands on lower back over kidneys"
+      inner_smile: "Bring attention deep to your kidneys, either side of the spine at waist level"
+    - phase: Rising
+      activity: "Good time for intimacy, gentle connection, warmth"
+      improvement: "Warm your feet — Kidney meridian starts at sole of foot (K-1 point)"
+      pulse_position: "Use ring finger, press DEEP — deepest pulse of all 12"
+      pulse_description: "Qi building — pulse slowly strengthening. Faint = Yang collapse (cold limbs, exhaustion — serious)"
+      sound_practice: "Begin soft CHOO exhale. Hug your knees or lean forward, compressing kidneys gently"
+      inner_smile: "Smile to your kidneys. Send deep blue-black light. Warmth to the deepest reserves"
+    - phase: Peak
+      activity: "Peak vitality access — conserve, don't deplete. Quality rest"
+      improvement: "Avoid: overexertion, excessive cold, caffeine. Salty taste supports Kidney"
+      pulse_position: "Press firmly to the bone, hold, wait for pulse to emerge"
+      pulse_description: "Qi at peak — most substantial now. Thin = Yin deficiency (night sweats, hot palms, dry mouth)"
+      sound_practice: "Full CHOO — round lips, blow gently. Feel vibration deep in the lower back"
+      inner_smile: "Feel gentle wisdom replacing fear. Kidneys glow deep blue. Life force is nourished"
+    - phase: Declining
+      activity: "Gentle evening routine — bath, warm drink, calm environment"
+      improvement: "Tinnitus, hearing loss, weak knees = Kidney essence declining"
+      pulse_position: "This pulse may take 30+ seconds to reveal itself. Be patient"
+      pulse_description: "Qi declining — still deep. Rapid-thin = Yin deficiency with heat (afternoon fever, malar flush)"
+      sound_practice: "Soften CHOO. Sit up, hands on lower back. Feel deep warmth spreading"
+      inner_smile: "Let the warmth settle into bone level. Fear dissolves into quiet confidence"
+    - phase: Exiting
+      activity: "Prepare for Pericardium — from deep reserves to emotional protection"
+      improvement: "Gray hair, loose teeth, low libido = Kidney Jing depletion — rest more"
+      pulse_position: "Compare with RIGHT Chi (Pericardium/Ming Men) — both reflect root vitality"
+      pulse_description: "Qi exiting to Pericardium. Kidney is root of life — if absent: exhaustion at deepest level"
+      sound_practice: "Silent CHOO. Hands rest. Feel rooted, deep, warm at your core"
+      inner_smile: "Thank your kidneys. Feel the root of your vitality. Prepare for Pericardium"
+
+  "Pericardium":
+    - phase: Entering
+      activity: "Social warmth, connection with loved ones, gratitude"
+      improvement: "Pericardium protects the Heart — emotional guardian"
+      pulse_position: "RIGHT wrist, Chi (closest to elbow)"
+      pulse_description: "Qi arriving from Kidney — protective pulse emerging. Healthy: moderate, smooth, deeper than Heart"
+      sound_practice: "HEE — (gentle, like a sigh of relief). Sit, hands at heart/chest center"
+      inner_smile: "Bring attention to the chest, the protective space around the heart"
+    - phase: Rising
+      activity: "Light conversation, affection, self-care rituals"
+      improvement: "Good time for journaling, expressing feelings safely"
+      pulse_position: "Use ring finger, press DEEP (Yin organ)"
+      pulse_description: "Qi building — pulse warming. Wiry = emotional constraint (suppressed feelings, chest oppression)"
+      sound_practice: "Begin soft HEE exhale. Hands cross over chest in a self-embrace"
+      inner_smile: "Smile to your pericardium. Send warm rose-pink light. Feel safe, held"
+    - phase: Peak
+      activity: "Peak emotional receptivity — be with people who nourish you"
+      improvement: "Avoid: conflict, upsetting news, emotional confrontation"
+      pulse_position: "Feel for warmth and flow — Pericardium protects the Heart"
+      pulse_description: "Qi at peak — most responsive now. Slippery = phlegm misting Heart (confusion, manic behavior)"
+      sound_practice: "Full HEE — gentle sigh, not forceful. Feel the chest soften and open"
+      inner_smile: "Feel openness and connection replacing guardedness. The heart protector relaxes"
+    - phase: Declining
+      activity: "Wind down social activity — prepare inner stillness"
+      improvement: "Chest tightness, feeling 'guarded' = Pericardium constriction"
+      pulse_position: "Compare with LEFT Cun (Heart) — Pericardium guards what Heart reveals"
+      pulse_description: "Qi declining — pulse settling. Rapid = heat disturbing spirit (restlessness, insomnia)"
+      sound_practice: "Soften HEE to barely audible. Arms slowly open, palms up on knees"
+      inner_smile: "Let emotional safety settle in. You can be open without being vulnerable"
+    - phase: Exiting
+      activity: "Prepare for Triple Burner — from emotional warmth to systemic rest"
+      improvement: "Best mood indicator: joy at this time = healthy Pericardium"
+      pulse_position: "This position also reflects Ming Men (Gate of Vitality) fire"
+      pulse_description: "Qi exiting to Triple Burner. Reflects emotional state — best indicator for stress and mood"
+      sound_practice: "Silent HEE. Hands rest open. Feel emotionally warm and protected"
+      inner_smile: "Thank your pericardium. Feel safe to feel. Prepare for Triple Burner"
+
+  "Triple Burner":
+    - phase: Entering
+      activity: "Body prepares for sleep — all three burners harmonizing"
+      improvement: "Upper/Middle/Lower Burner = respiration/digestion/elimination balancing"
+      pulse_position: "RIGHT wrist, Chi (closest to elbow)"
+      pulse_description: "Qi arriving from Pericardium — whole-body pulse activating. Healthy: balanced, even flow"
+      sound_practice: "HEE — same sound as Pericardium (paired). Lie down or recline if possible"
+      inner_smile: "Bring attention to the whole torso: upper chest, middle belly, lower pelvis"
+    - phase: Rising
+      activity: "Avoid screens, stimulation — body temperature dropping"
+      improvement: "Light stretching or yin yoga supports whole-body Qi circulation"
+      pulse_position: "Use ring finger, LIGHT touch (Yang organ = surface)"
+      pulse_description: "Qi building — harmony developing. Wiry = Qi stagnation (feeling stuck, bloating, tension)"
+      sound_practice: "Begin soft HEE exhale. Feel the sound travel from upper to lower body"
+      inner_smile: "Smile to all three burners. Send warm light cascading downward through the torso"
+    - phase: Peak
+      activity: "Go to sleep now if possible — thermostat is resetting"
+      improvement: "Avoid: eating, intense activity, cold exposure, arguments"
+      pulse_position: "Not one organ — feel harmony across all three finger positions"
+      pulse_description: "Qi at peak — most balanced now. Soggy = dampness in waterways (edema, heavy limbs, fog)"
+      sound_practice: "Full HEE — feel it harmonize upper (breath), middle (digestion), lower (elimination)"
+      inner_smile: "Feel whole-body harmony. All three spaces balanced. Temperature even throughout"
+    - phase: Declining
+      activity: "If awake: only calm, dim, quiet activities"
+      improvement: "Hot flashes, erratic temperature = Triple Burner disharmony"
+      pulse_position: "Lift all three fingers, reposition, re-read: consistency = health"
+      pulse_description: "Qi declining — balance shifting. Weak = overall Qi deficiency (fatigue, weak voice, colds)"
+      sound_practice: "Soften HEE. Feel the three spaces connected, flowing, unified"
+      inner_smile: "Let the harmonizing settle. The body's thermostat is resetting for sleep"
+    - phase: Exiting
+      activity: "Prepare for Gallbladder — the body enters deep repair mode"
+      improvement: "Difficulty falling asleep at this time = Qi not descending properly"
+      pulse_position: "Unique: compare ALL six positions (both wrists) for overall balance"
+      pulse_description: "Qi exiting to Gallbladder. Triple Burner is body's thermostat — imbalance = systemic disharmony"
+      sound_practice: "Silent HEE. Whole body feels even, warm, ready for rest"
+      inner_smile: "Thank your triple burner. Feel unified. Prepare for deep sleep and Gallbladder"
+
+  "Gallbladder":
+    - phase: Entering
+      activity: "Deep sleep is CRITICAL now — Gallbladder processes and decides"
+      improvement: "Emotion: resentment, bitterness. Taste: bitter. Paired with Liver"
+      pulse_position: "LEFT wrist, Guan (middle position)"
+      pulse_description: "Qi arriving from Triple Burner — surface pulse activating. Healthy: slightly wiry but smooth"
+      sound_practice: "SHHH — (like shushing a child). Lie on right side if possible"
+      inner_smile: "Bring attention to the right side below ribs. The gallbladder rests here"
+    - phase: Rising
+      activity: "Body is processing fats, cholesterol, making bile during sleep"
+      improvement: "Dreams of conflict or decision-making = Gallbladder active in sleep"
+      pulse_position: "Use middle finger, LIGHT touch (Yang organ = surface)"
+      pulse_description: "Qi building — tension developing. Very wiry/taut = stress (like pressing a guitar string)"
+      sound_practice: "Begin soft SHHH exhale. Feel vibration on the right side of the torso"
+      inner_smile: "Smile to your gallbladder. Send bright green light. Feel decisions simplifying"
+    - phase: Peak
+      activity: "Peak repair — waking now = Gallbladder/Liver imbalance"
+      improvement: "Avoid: alcohol, fatty food before bed — Gallbladder works overtime"
+      pulse_position: "Wiry Gallbladder pulse is most common finding in modern life"
+      pulse_description: "Qi at peak — most tense now. Slippery-wiry = damp-heat (bitter taste, nausea, rib pain)"
+      sound_practice: "Full SHHH — feel it vibrate the right ribs, the sides of the body"
+      inner_smile: "Feel decisiveness and courage replacing bitterness or resentment. Green glow"
+    - phase: Declining
+      activity: "Sleep quality determines next day's decisiveness and courage"
+      improvement: "Indecisiveness, timidity = weak Gallbladder Qi — rest more deeply"
+      pulse_position: "Feel for 'spring' — healthy wiry bounces back, unhealthy feels rigid"
+      pulse_description: "Qi declining — tension releasing. Rapid = Gallbladder fire (headaches, red eyes, irritability)"
+      sound_practice: "Soften SHHH. Feel the right side releasing held tension and bile"
+      inner_smile: "Let clear judgment settle in. Resentment dissolves. Sleep deepens now"
+    - phase: Exiting
+      activity: "Prepare for Liver — deepest detox phase approaching"
+      improvement: "Waking 11PM-1AM repeatedly = Gallbladder heat. Check diet, reduce anger"
+      pulse_position: "Compare with deep press (Liver below) — they always work as a pair"
+      pulse_description: "Qi exiting to Liver. Gallbladder governs decisions — wiry = indecisiveness or over-thinking"
+      sound_practice: "Silent SHHH. Feel the sides of the body soft, released"
+      inner_smile: "Thank your gallbladder. Feel decided, clear, at peace. Prepare for Liver"
+
+  "Liver":
+    - phase: Entering
+      activity: "MUST be asleep — Liver cleanses blood only when lying down"
+      improvement: "Emotion: anger, frustration, resentment. Sense: eyes. Tissue: tendons"
+      pulse_position: "LEFT wrist, Guan (middle position)"
+      pulse_description: "Qi arriving from Gallbladder — deep pulse emerging. Healthy: slightly wiry with good flow"
+      sound_practice: "SHHH — same sound as Gallbladder (paired organ). Lie on right side, eyes closed"
+      inner_smile: "Bring attention to the liver, right side under ribs. The largest internal organ"
+    - phase: Rising
+      activity: "Deepest detox phase — blood returns to Liver for cleansing"
+      improvement: "Dreams of anger, chasing, running = Liver Qi stagnation"
+      pulse_position: "Use middle finger, press DEEP (Yin organ)"
+      pulse_description: "Qi building — flow strengthening. Very wiry = Qi stagnation (most common modern finding)"
+      sound_practice: "Begin soft SHHH exhale. Feel the large warm organ receiving blood for cleansing"
+      inner_smile: "Smile to your liver. Send vivid green light. Feel the blood being purified"
+    - phase: Peak
+      activity: "Peak detox — body's most important repair window"
+      improvement: "Avoid: alcohol (obvious), late eating, screen light, anger before bed"
+      pulse_position: "Feel past Gallbladder (surface) to deeper Liver pulse"
+      pulse_description: "Qi at peak — strongest now. Thin = blood deficiency (dry eyes, blurred vision, pale nails)"
+      sound_practice: "Full SHHH — feel it vibrate deeply through the right side. Blood is flowing home"
+      inner_smile: "Feel kindness and generosity replacing anger or frustration. Liver glows bright green"
+    - phase: Declining
+      activity: "Creative energy is being stored for tomorrow's use"
+      improvement: "Waking 1-3AM = classic Liver Qi stagnation sign — address stress/anger"
+      pulse_position: "Best felt now as Liver completes its active period"
+      pulse_description: "Qi declining — flow softening. Choppy = blood stasis (fixed sharp pain, dark complexion)"
+      sound_practice: "Soften SHHH. Feel the liver warm and full, doing its deep night work"
+      inner_smile: "Let kindness settle into every cell the liver cleanses. Anger leaves with the exhale"
+    - phase: Exiting
+      activity: "Prepare for Lung — from detox to fresh Qi distribution at sunrise"
+      improvement: "Dry eyes, tight tendons, irritability = Liver blood deficiency. Stretch daily"
+      pulse_position: "Compare with RIGHT Guan (Spleen) — Liver overacting on Spleen is very common"
+      pulse_description: "Qi exiting to Lung. Liver ensures smooth flow everywhere — stagnation here affects ALL organs"
+      sound_practice: "Silent SHHH. Body is asleep or near-sleep. Liver works quietly"
+      inner_smile: "Thank your liver. The cycle completes. At sunrise, clean blood flows to Lungs again"
